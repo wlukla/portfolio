@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="node_modules/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+<header class="header">
+  <img src="assets/img/avatar.png" alt="avatar" class="header__avatar">
+  <div class="contacts">
+    <h1 class="contacts__name">Vladislav Danilochkin</h1>
+    <ul class="contacts__list">
+      <li class="contacts__item"><a href="https://github.com/wlukla" target="_blank" class="contacts__link">Github /</a></li>
+      <li class="contacts__item"><a href="https://t.me/wlukla" target="_blank" class="contacts__link">Telegram /</a></li>
+      <li class="contacts__item"><a href="mailto:vladislav.danilochkin@gmail.com" target="_blank" class="contacts__link">E-mail /</a></li>
+    </ul>
+  </div>
+</header>
+<main class="main">
+  <div class="drop-list" id="dropList">
+    <div class="top" id="dropDownTop">
+      <h2 class="heading top__heading">Education</h2>
+    </div>
+    <ul class="drop-list__list" id="dropDownList">
+      <ul class="item drop-list__item">
+        <h3 class="drop-list__place">School</h3>
+        <span class="drop-list__year">2006 - 2010</span>
+      </ul>
+      <ul class="item drop-list__item">
+        <h3 class="drop-list__place">Lyzeum "Prestige"</h3>
+        <span class="drop-list__year">2010 - 2017</span>
+      </ul>
+      <ul class="drop-list__item">
+        <h3 class="drop-list__place">University: KPI. International Economics</h3>
+        <span class="drop-list__year">2017 - present</span>
+      </ul>
+      <ul class="drop-list__item">
+        <h3 class="drop-list__place">RSSchool courses</h3>
+        <span class="drop-list__year">2019 - present</span>
+      </ul>
+    </ul>
+  </div>
+  <div class="swiper-container">
+    <div class="mobile description__mobile">
+      <span class="mobile__span">Show description</span>
+    </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="swiper-slide-content">
+          <div class="text">
+            <h3 class="text__heading">THE YALLOW</h3>
+            <ul class="text__list">
+              <li class="text__item">PixelPerfect</li>
+              <li class="text__item">1300 & 640</li>
+            </ul>
+            <p class="text__paragraph">
+              Click on image to see the project
+            </p>
+          </div>
+          <div class="image-container">
+            <a href="projects/theyalow/index1.html"><img class="image-container__image" src="assets/img/THEYALOW Desktop.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-content">
+          <div class="text">
+            <h3 class="text__heading">Repair design</h3>
+            <ul class="text__list">
+              <li class="text__item">Responsive</li>
+              <li class="text__item">SCSS</li>
+            </ul>
+            <p class="text__paragraph">
+              Click on image to see the project
+            </p>
+          </div>
+
+          <div class="image-container">
+            <a href="projects/repair-design-project/index1.html"><img class="image-container__image" src="assets/img/Repair-design Desktop.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile swiper-bottom__mobile">
+      <span class="mobile__span">Swipe to see more</span>
+    </div>
+    <div class="swiper-button swiper-button-prev"></div>
+    <div class="swiper-button swiper-button-next"></div>
+  </div>
+</main>
+<script src="script.js"></script>
+<script src="node_modules/swiper/js/swiper.min.js"></script>
+<script src="swiper.js"></script>
+</body>
+</html>
